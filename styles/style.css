@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    background-color: white;
+    width: 400px;
+    margin: 150px auto;
+    border-radius: 10px;
+}
+
+form {
+    padding: 20px;
+}
+
+form h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    border: 0;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form .input-container input,
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    border: 1px solid #e4e4e4;
+    color: #818181;
+    padding: 0px 55px 0 25px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.input-container input::placeholder {
+    color: #818181;
+}
+
+.input-container svg {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 12px);
+    color: #818181;
+}
+
+.options-container {
+    padding: 0 20px;
+    margin: 25px auto;
+    color: #818181;
+}
+
+.options-container .checkbox-container,
+.options-container a {
+    display: inline-block;
+    width: 50%;
+}
+
+a {
+    text-align: right;
+    color: red;
+    text-decoration: none;
+}
+
+.form-container p {
+    text-align: center;
+    color: #818181;
+    padding-top: 20px;
+}
+
+form .social-media-container {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+form .social-media-container .icon-container {
+    display: inline-block;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/* cores icones */
+
+form .social-media-container .icon-container:nth-child(1) {
+    background-color: #375c98;
+}
+
+form .social-media-container .icon-container:nth-child(2) {
+    background-color: #c54f33;
+}
+
+form .social-media-container .icon-container:nth-child(3) {
+    background-color: #4dadf2;
+}
+
+div .icon-container {
+    position: relative;
+}
+
+form .social-media-container .icon-container svg {
+    position: relative;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    color: white;
+}
+
+hr {
+    color: #818181;
+    margin: 20px;
+}
+
+.footer {
+    width: fit-content;
+    margin: 0 auto;
+}
